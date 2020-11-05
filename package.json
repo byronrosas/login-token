@@ -1,0 +1,30 @@
+{
+  "name": "login-token",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byronrosas/login-token.git"
+  },
+  "author": "Byron Rosas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/byronrosas/login-token/issues"
+  },
+  "homepage": "https://github.com/byronrosas/login-token#readme",
+  "dependencies": {
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/node": "^14.11.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  }
+}
